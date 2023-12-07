@@ -1,17 +1,17 @@
-body {
+.p-resume {
     text-align: center;
 }
 
-table {
+.s-experience table {
     margin: auto;
     border-collapse: collapse;
 }
 
-td {
+.s-experience table tr td {
     border-style: dotted;
     text-align: center;
 }
 
-ul, td {
+.s-skills ul {
     list-style-position: inside;
 }
