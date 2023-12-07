@@ -1,3 +1,16 @@
+/* Homepage */
+
+#p-home {
+    font-family: Source Sans Pro;
+}
+
+#s-sidebar {
+    margin: 0;
+    padding: 0;
+}
+
+/* Resume Page */
+
 #p-resume {
     text-align: center;
 }
