@@ -6,22 +6,24 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="/css/styleSheet.css">
 </head>
-<body id="p-home">
-    <main>
-        <header>
-            <h1>Welcome to my Website!</h1>
-            <p>My name is <strong><i>Balázs Kiss</i></strong>.</p>
-        </header>
-        <div>
-            <p>
-                I am a nineteen year old man attending NSCC (Nova Scotia Community College) in Truro, NS.<br>
-                Lately I have not had the chance to catch up on or explore any hobbies since I have been busy
-                with homework, my job, and chores.<br> Since it is almost Christmas break, I am looking forward to
-                playing video games, building the rest of my custom gaming PC, reading, and watching moives and tv shows.<br>
-                When I was younger I watched a tv show that was really good called West World but I have not gotten around to
-                finishing it. I am thinking of continuing the series.<br>
-                Anyways! That's enough talking from me, have fun exploring my website!
-            </p>
+<body>
+    <main id="p-home">
+        <div id="s-content">
+            <header>
+                <h1>Welcome to my Website!</h1>
+                <p>My name is <strong><i>Balázs Kiss</i></strong>.</p>
+            </header>
+            <div>
+                <p>
+                    I am a nineteen year old man attending NSCC (Nova Scotia Community College) in Truro, NS.<br>
+                    Lately I have not had the chance to catch up on or explore any hobbies since I have been busy
+                    with homework, my job, and chores.<br> Since it is almost Christmas break, I am looking forward to
+                    playing video games, building the rest of my custom gaming PC, reading, and watching moives and tv shows.<br>
+                    When I was younger I watched a tv show that was really good called West World but I have not gotten around to
+                    finishing it. I am thinking of continuing the series.<br>
+                    Anyways! That's enough talking from me, have fun exploring my website!
+                </p>
+            </div>
         </div>
         <div id="s-sidebar" onclick="show()">
             <div class="toggle-btn">
@@ -36,9 +38,12 @@
                 <li>Web App Samples Page</li>
                 <li>Other Samples Page</li>
             </ul>
+            <script>
+                function show() {
+                    document.getElementById("s-sidebar").classList.toggle('active');
+                }
+            </script>
         </div>
-
-        <script>src="/js/sidebar.js"</script>
     </main>
 </body>
 </html>

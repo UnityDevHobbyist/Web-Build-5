@@ -14,7 +14,7 @@
     height: 100%;
     background: #000;
     left: -300px;
-    transform: .4s;
+    transition: .4s;
 }
 
 #s-sidebar.active {
