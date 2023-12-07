@@ -1,6 +1,51 @@
 /* Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
 /* Homepage */
+
+#p-home {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#s-sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    left: -300px;
+    transform: .4s;
+}
+
+#s-sidebar.active {
+    left: 0;
+}
+
+#s-sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#s-sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+#s-sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-top: 4px;
+}
 
 /* Resume Page */
 
