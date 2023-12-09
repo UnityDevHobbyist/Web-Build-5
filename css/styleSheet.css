@@ -17,7 +17,7 @@
     transition: .4s;
 }
 
-#g.toggle-btn span {
+#g-toggle-btn span {
     width: 45px;
     height: 4px;
     background: #000;
@@ -27,11 +27,11 @@
 
 /* Homepage */
 
-#s-sidebar.active {
+#g-sidebar.active {
     left: 0;
 }
 
-#s-sidebar ul {
+#g-sidebar ul {
     margin: 0;
     padding: 0;
 }
@@ -43,7 +43,7 @@
     padding: 20px 24px;
 }
 
-#s-sidebar #g.toggle-btn {
+#g-sidebar #g-toggle-btn {
     position: absolute;
     top: 30px;
     left: 330px;
