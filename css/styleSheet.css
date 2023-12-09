@@ -25,6 +25,16 @@
     margin-top: 4px;
 }
 
+/* Samples Page */
+
+#g-sample-paragraph {
+    margin-bottom: 0px;
+}
+
+#g-sample-text {
+    list-style: inside;
+}
+
 /* Homepage */
 
 #g-sidebar.active {
@@ -36,7 +46,7 @@
     padding: 0;
 }
 
-.sidebar-text {
+#g-sidebar-text {
     list-style: none;
     color: #fff;
     font-size: 20px;
@@ -48,16 +58,6 @@
     top: 30px;
     left: 330px;
     width: 500%;
-}
-
-/* Samples Page */
-
-.web-paragraph {
-    margin-bottom: 0px;
-}
-
-.web-text {
-    list-style: inside;
 }
 
 /* Resume Page */
