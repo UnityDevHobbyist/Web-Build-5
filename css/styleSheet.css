@@ -26,7 +26,7 @@
     padding: 0;
 }
 
-#s-sidebar ul li {
+.sidebar-text {
     list-style: none;
     color: #fff;
     font-size: 20px;
@@ -37,6 +37,7 @@
     position: absolute;
     top: 30px;
     left: 330px;
+    width: 500%;
 }
 
 .toggle-btn span {
@@ -45,6 +46,16 @@
     background: #000;
     display: block;
     margin-top: 4px;
+}
+
+/* Samples Page */
+
+.web-paragraph {
+    margin-bottom: 0px;
+}
+
+.web-text {
+    list-style: inside;
 }
 
 /* Resume Page */
