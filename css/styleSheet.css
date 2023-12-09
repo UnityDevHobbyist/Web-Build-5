@@ -46,7 +46,7 @@
     padding: 0;
 }
 
-#g-sidebar-text {
+#g-sidebar-text-one, #g-sidebar-text-two, #g-sidebar-text-three, #g-sidebar-text-four {
     list-style: none;
     color: #fff;
     font-size: 20px;
@@ -62,7 +62,7 @@
 
 /* Resume Page */
 
-#p-resume {
+#p-resume-content {
     text-align: center;
 }
 
