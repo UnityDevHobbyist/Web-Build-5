@@ -81,3 +81,7 @@
 #s-skills ul {
     list-style-position: inside;
 }
+
+/* Images */
+
+img { width: 500px; }
