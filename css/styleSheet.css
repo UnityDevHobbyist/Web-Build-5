@@ -48,10 +48,12 @@
 
 #g-sidebar-text-one, #g-sidebar-text-two, #g-sidebar-text-three, #g-sidebar-text-four {
     list-style: none;
-    color: #fff;
     font-size: 20px;
     padding: 20px 24px;
+    text-decoration: none;  
 }
+
+#g-sidebar-text-one a, #g-sidebar-text-two a, #g-sidebar-text-three a, #g-sidebar-text-four a { color: #fff; }
 
 #g-sidebar #g-toggle-btn {
     position: absolute;
