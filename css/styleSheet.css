@@ -25,19 +25,6 @@
     margin-top: 4px;
 }
 
-/* Samples Page */
-
-#g-sample-paragraph {
-    margin-bottom: 0px;
-}
-
-#g-sample-text {
-    list-style: inside;
-}
-
-#s-web-header { text-decoration: underline; }
-#s-other-header { text-decoration: underline; }
-
 /* Homepage */
 
 #g-sidebar.active {
@@ -76,16 +63,29 @@
 
 #s-skills ul { list-style-position: inside; }
 
+/* Samples Page */
+
+#s-web-header { text-decoration: underline; }
+#s-other-header { text-decoration: underline; }
+
+#g-sample-paragraph {
+    margin-bottom: 0px;
+}
+
+#g-sample-text {
+    list-style: inside;
+}
+
 /* Images */
 
 img { width: 500px; }
+
+body { background-image: url("/images/background-image.jpg"); }
 
 #profile-pic {
     width: 250px;
     border-radius: 50%;
 }
-
-body { background-image: url("/images/background-image.jpg"); }
 
 /* Grids */
 
@@ -100,3 +100,51 @@ body { background-image: url("/images/background-image.jpg"); }
 #p-home-content header { grid-area: header; }
 #p-home-content p { grid-area: about; }
 #profile-pic { grid-area: profile-pic; grid-column: 2 / span 2; }
+
+#p-resume-content {
+    display: grid;
+    grid-template-areas:
+        "contact-details"
+        "objective"
+        "education"
+        "experience"
+        "skills"
+        "languages"
+        "references";
+}
+
+#s-contact-details { grid-area: contact-details; }
+#s-objective { grid-area: objective; }
+#s-education { grid-area: education; }
+#s-experience { grid-area: experience; }
+#s-skills { grid-area: skills; }
+#s-languages { grid-area: languages; }
+#s-references { grid-area: references; }
+
+#p-web-content {
+    display: grid;
+    grid-area:
+        "web-section-one web-section-two"
+        "web-section-three web-section-four"
+        "web-section-five web-section-six";
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#s-web-section-one { grid-area: web-section-one; }
+#s-web-section-two { grid-area: web-section-two; }
+#s-web-section-three { grid-area: web-section-three; }
+#s-web-section-four { grid-area: web-section-four; }
+#s-web-section-five { grid-area: web-section-five; }
+#s-web-section-six { grid-area: web-section-six; }
+
+#p-other-content {
+    display: grid;
+    grid-area:
+        "other-section-one other-section-two"
+        "other-section-three .";
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#s-other-section-one { grid-area: other-section-one; }
+#s-other-section-two { grid-area: other-section-two; }
+#s-other-section-three { grid-area: other-section-three; }
