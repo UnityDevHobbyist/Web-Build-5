@@ -67,23 +67,14 @@
 
 /* Resume Page */
 
-#p-resume-content {
-    text-align: center;
-}
-
-#s-experience table {
-    margin: auto;
-    border-collapse: collapse;
-}
+#s-experience table { border-collapse: collapse; }
 
 #s-experience table tr td {
     border-style: dotted;
     text-align: center;
 }
 
-#s-skills ul {
-    list-style-position: inside;
-}
+#s-skills ul { list-style-position: inside; }
 
 /* Images */
 
