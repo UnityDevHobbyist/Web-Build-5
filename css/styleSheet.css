@@ -85,3 +85,21 @@
 /* Images */
 
 img { width: 500px; }
+
+#profile-pic { width: 250px; }
+
+body { background-image: url("/images/background-image.jpg"); }
+
+/* Grids */
+
+#p-home-content {
+    display: grid;
+    grid-template-areas:
+        "header ."
+        "about profile-pic";
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#p-home-content header { grid-area: header; }
+#p-home-content p { grid-area: about; }
+#profile-pic { grid-area: profile-pic; grid-column: 2 / span 2; }
