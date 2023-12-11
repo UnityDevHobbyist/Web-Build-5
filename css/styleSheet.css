@@ -80,7 +80,10 @@
 
 img { width: 500px; }
 
-#profile-pic { width: 250px; }
+#profile-pic {
+    width: 250px;
+    border-radius: 50%;
+}
 
 body { background-image: url("/images/background-image.jpg"); }
 
