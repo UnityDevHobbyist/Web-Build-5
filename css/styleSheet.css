@@ -35,6 +35,9 @@
     list-style: inside;
 }
 
+#s-web-header { text-decoration: underline; }
+#s-other-header { text-decoration: underline; }
+
 /* Homepage */
 
 #g-sidebar.active {
